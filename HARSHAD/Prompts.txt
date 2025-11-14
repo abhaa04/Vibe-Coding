@@ -1,0 +1,87 @@
+Basic Prompt:
+Create a single-page app called "StudyMate" for college students.
+It should help students generate quizzes from uploaded notes using AI.
+Use a modern UI and keep it beginner-friendly.
+
+
+
+Detail Prompt:
+Build a modern, responsive single-page web app named "MyStudyMate", designed to help college students study smarter and prepare for corporate job interviews.
+The app should use AI to convert class notes in text files or text input into quizzes, flashcards, and summaries, and provide interview prep assistance (common HR, technical, and aptitude questions).
+________________________________________
+Core Features
+📝 1. Upload or Paste Notes
+•	Allow students to upload Text files or paste text directly.
+•	AI should parse the content and generate study materials.
+🧩 2. AI Quiz & Flashcard Generator
+•	Automatically create quizzes (MCQs, short answers, or true/false) from uploaded notes.
+•	Create AI flashcards (Question on front, Answer on back).
+•	Allow export of flashcards as .csv or .pdf.
+🧠 3. Smart Summaries
+•	Generate concise, AI-driven summaries of uploaded material.
+•	Allow students to select “Quick Recap” or “Detailed Review.”
+💼 4. Interview Preparation Mode
+•	Preloaded corporate interview question banks:
+o	General HR questions
+o	Technical (by domain: IT, Finance, Marketing, etc.)
+o	Aptitude & reasoning
+•	AI should analyze uploaded resume (optional) and suggest personalized interview questions.
+📊 5. Progress Tracker
+•	Simple visual analytics dashboard:
+o	Number of quizzes attempted
+o	Accuracy %
+o	Weak topic areas (based on quiz performance)
+o	Suggested improvement areas.
+💬 6. AI Chat Assistant
+•	Integrated chatbox: “Ask StudyMate” for any question based on uploaded content.
+•	Supports follow-up questions and rephrased explanations.
+🎨 7. UI & UX Requirements
+•	Modern single-page layout using React.js (or Next.js) + Tailwind CSS.
+•	Soft pastel theme: blue/white/green (focus-friendly colors).
+•	Sections in scrollable format:
+o	Header → Upload Notes → Flashcards/Quiz → Interview Prep → Analytics → Chat.
+•	Include icons & light animations (Framer Motion preferred).
+⚙️ 8. Tech Stack (suggested)
+•	Frontend: React.js + Tailwind CSS
+•	AI Backend: OpenAI API (or local LLM API placeholder)
+•	Storage: LocalStorage / Firebase for user progress
+•	Optional Add-ons:
+o	Speech-to-text input for notes
+o	Text-to-speech for flashcards
+o	Dark mode toggle
+
+Page Layout (Single Page Structure)
+--------------------------------------------------------
+| 📚 StudyMate - AI Study & Interview Assistant         |
+--------------------------------------------------------
+| [Upload / Paste Notes]  → Convert to Quiz/Flashcards |
+| [AI Flashcards Section]  → Flip or Export            |
+| [Smart Summary Section]  → Quick or Detailed         |
+| [Interview Prep Mode]    → HR | Technical | Aptitude |
+| [Progress Tracker]       → Charts and Stats          |
+| [Chat with StudyMate AI] → Ask Questions             |
+--------------------------------------------------------
+| Footer: “Made for Students, by AI 💡”                 |
+--------------------------------------------------------
+
+Example User Flow
+1.	Student uploads lecture notes → clicks “Generate Study Material.”
+2.	App creates:
+o	10 quiz questions
+o	15 flashcards
+o	3-paragraph summary
+3.	Student switches to Interview Mode, selects “IT Domain” → gets sample interview questions.
+4.	Progress tracked automatically.
+________________________________________
+Additional Enhancements
+•	🎯 Gamified badges (“Quiz Master”, “Flashcard Hero”, etc.)
+•	🔔 Daily AI reminder: “Revise your flashcards today!”
+•	🔒 Simple login (Google/College email) – optional
+•	🌐 Deployable on Vercel/Netlify
+________________________________________
+Output Expected
+A fully functional single-page React.js app with:
+•	Clean responsive UI
+•	AI API placeholders
+•	Dummy data for demo
+•	Modular component structure (UploadSection, QuizSection, InterviewPrep, Analytics, ChatAssistant)

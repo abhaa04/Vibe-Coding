@@ -1,0 +1,30 @@
+College Buddy Application Prompts: 
+
+Objective Section
+
+Prompt 1 : 
+Help me to create application for student for study material sharing, peer study , question answers for classwork, home work etc.
+
+______________________________________________________________________________________________
+
+
+Step2 :
+
+Prompt 2:
+"Create a web application “CollegeBuddy” for college students to share study materials, ask and answer questions, and collaborate on homework. The app should have user authentication, a dashboard for subjects, and a section for Q&A. Use a simple and clean UI suitable for students."
+
+
+
+______________________________________________________________________________________________
+
+Step5 :
+
+Run Google AI Studio prompts for each user story.
+Example for Q&A feature:
+
+Prompt 3:
+"Add a Q&A section where students can post questions and answers. Include upvote/downvote functionality and tags for subjects."
+
+
+______________________________________________________________________________________________
+
