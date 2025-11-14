@@ -1,0 +1,5 @@
+Agri Direct 
+
+Prompt :
+
+We want to build a prototype for farmer to diagnose the infection on his crop. A farmer in Vidarbha sees a strange pattern on his cotton leaves. He will be taking the photo of the leaves and upload to app. The farmer can take the photo of the image using his phone as well. There will be a button to "diagnose" the problem. The farmer can provide more details in text like location, climate, pesticide used etc. The AI will then "analyze" the input (a simple, pre-programmed response for the demo) and give a diagnosis and a recommendation. This simulates the AI's role in empowering the farmer. We can give 2-3 sample images in the application to show the demo of AI based diagnosis. In the analysis report we can provide some guidance on how the weather, location and use of pesticides play a role in the issues. Help to build this prototype. Sample image of plat disease is attached
