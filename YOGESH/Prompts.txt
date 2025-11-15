@@ -2,8 +2,8 @@ College Buddy Application Prompts:
 
 Objective Section
 
-Prompt 1 : 
-Help me to create application for student for study material sharing, peer study , question answers for classwork, home work etc.
+Prompt 1
+Help me to create an application for students for sharing study material, , question answers for classwork, homework work etc.
 
 ______________________________________________________________________________________________
 
@@ -22,9 +22,12 @@ Step5 :
 Run Google AI Studio prompts for each user story.
 Example for Q&A feature:
 
-Prompt 3:
+Prompt: 3
 "Add a Q&A section where students can post questions and answers. Include upvote/downvote functionality and tags for subjects."
 
 
 ______________________________________________________________________________________________
 
+Repeat for other stories.
+Prompt 4
+"Add a Q&A section As a student, I can set my weekly study goal and check progress on top of my it . Include progress bar for time spent on the app."
